@@ -17,7 +17,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
+  --bs-yellow: #ddd5bb;
   --bs-green: #198754;
   --bs-teal: rgb(17, 24, 32);
   --bs-cyan: #0dcaf0;
@@ -74,6 +74,10 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+#portfolio {
+  background-color: var(--bs-yellow);
 }
 
 body {
@@ -3997,11 +4001,11 @@ textarea.form-control-lg {
   border: 0;
   border-radius: 0.5rem;
 }
-.nav-pills .nav-link.active,
+/* .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1abc9c;
-}
+} */
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -11397,7 +11401,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    /* background: #1abc9c; */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -11431,18 +11435,18 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: calc(1rem + 74px);
+  padding-bottom: 1rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 14rem;
   border-radius: 50%;
 }
 
