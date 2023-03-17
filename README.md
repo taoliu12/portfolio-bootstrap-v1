@@ -1,1 +1,5 @@
-Portfolio site. Original template from https://github.com/StartBootstrap/startbootstrap-freelancer/
+Portfolio site Bootstrap, version 1
+
+Future ToDo's:
+    Convert to React
+    Admin + db.json
